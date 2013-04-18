@@ -1,0 +1,51 @@
+Test Automatitation
+- Primeros capítulos XUnit Patterns Book
+- Mejores prácticas
+http://www.slideshare.net/cognizant/better-test-automation
+(para el final del curso)
+
+UNIT TESTING
+-Verificar la parte de Unit Testing en el libro Application LifeCicle VS2010 para ver que se puede agregar
+-Dividir Beneficios.
+
+MOCKS
+- Design for Testeability
+http://misko.hevery.com/attachments/Guide-Writing%20Testable%20Code.pdf
+
+DABASE TESTING
+Best Practices (http://www.agiledata.org/essays/databaseTesting.html)
+- Agregar al ejercicio como verificar mappings.
+
+WEB TESTING
+Conceptos:
+http://seleniumhq.org/docs/01_introducing_selenium.html
+Styles
+http://www.exampler.com/blog/2007/06/06/four-implementation-styles-for-workflow-tests/
+ACCEPTANCE TESTS
+http://www.slideshare.net/jezhumble/creating-maintainable-automated-acceptance-tests
+
+MANTENIBILIDAD
+Tests Smells
+http://opentalkware.googlecode.com/svn/talk/TestDoubles/trunk/index.html
+Tests Economics (xUnit Patterns Book)
+http://www.youtube.com/watch?v=Pq6LHFM4JvE
+
+COSTO BENEFICIO
+http://www.exampler.com/testing-com/writings/automate.pdf
+
+
+LEGACY CODE
+- 1.6 new code vs existing code
+
+COUPLED DESIGN
+ver si cambiamos las configuraciones de los ejemplos para producir errores.
+
+ISSUES
+- Setup para testFixtures deben ser estáticos para java(verificar)
+
+Otros
+- diapositiva para instalación de material básico ( maven, nuget, powertools)
+- probar pasar los proyectos java a otra máquina.
+- probar que los proyectos java-maven con dir vacios estén funcionando.
+- diapositiva de "¿cuantos tests hacer?" (confianza)
+- diapositiva de que lo que abarcan las xunit frameworks
