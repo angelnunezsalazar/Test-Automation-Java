@@ -7,7 +7,7 @@ public class AlmacenService {
 	public AlmacenService(AlmacenDAO almacenDAO) {
 		this.almacenDAO = almacenDAO;
 	}
-
+ 
 	public void ReservarInventario(int productoId, int cantidad)
 			throws InventarioInsuficienteException {
 		int inventario = almacenDAO.cantidadInventario(productoId);

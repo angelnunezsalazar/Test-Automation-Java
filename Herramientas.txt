@@ -1,0 +1,42 @@
+MAVEN
+======
+
+Instalar Maven:
+Windows: http://java-white-box.blogspot.com/2012/11/maven-como-instalar-maven-en-windows.html
+Ubuntu: http://apiconz.blogspot.com/2012/09/instalacion-de-apache-maven-en-ubuntu.html
+
+Forma 1:
+m2eclipse http://download.eclipse.org/technology/m2e/releases http://jmbeas.wikidot.com/m2eclipse
+
+Forma 2:
+mvn install
+mvn eclipse:eclipse http://www.mkyong.com/maven/how-to-convert-maven-java-project-to-support-eclipse-ide/
+
+Add M2Repo http://www.mkyong.com/maven/how-to-configure-m2_repo-variable-in-eclipse-ide/
+
+Problema Importación http://stackoverflow.com/questions/10564684/how-to-fix-error-updating-maven-project-unsupported-iclasspathentry-kind-4
+
+
+eCOBERTURA
+==========
+Instalación
+http://ecobertura.johoop.de/update/
+
+Configurar y Ejecutar
+http://kennethxu.blogspot.com/2012/01/cobertura-and-eclipse-ecobertura.html
+
+Metrics
+=======
+Instalación
+http://metrics.sourceforge.net/
+
+Eclipse Metrics
+===============
+Instalación
+http://www.stateofflow.com/UpdateSite/
+
+Site
+http://eclipse-metrics.sourceforge.net/
+
+Features
+http://www.stateofflow.com/projects/16/eclipsemetrics

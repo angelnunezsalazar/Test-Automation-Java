@@ -14,13 +14,14 @@ public class CostoEnvioServiceTest {
 
 		double costo = costoEnvioService.calcular("USA");
 
-		// Los tipos doubles tiene problemas de precisión por lo tanto se recomienda
+		// Los tipos doubles tienen problemas de precisión por lo tanto se recomienda
 		// usar las siguientes alternativas
 		assertEquals(0, costo, DELTA); 		// Se produce error si la diferencia entre esperado y actual es mayor al delta
 		assertEquals(Double.doubleToLongBits(0), Double.doubleToLongBits(costo));
 		assertEquals(0, Double.compare(0, costo));
 	}
 
+	@Test
 	public void calculaElCostoDeEnvioParaPaisesDiferentesUSA() {
 		CostoEnvioDAO costoEnvioDAO = mock(CostoEnvioDAO.class);
 		when(costoEnvioDAO.obtener("PERU")).thenReturn(10.5);

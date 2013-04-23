@@ -12,8 +12,8 @@ public class OrderServices {
 
 	public BigDecimal calculateTotal(Order order) throws Exception{
 		BigDecimal itemTotal = order.getItemTotal();
+		
 		int discountPercentage = 0;
-
         if (order.getCouponCode()!=null){
             discountPercentage = dataAccess.getPromotionalDiscount(order.getCouponCode());
         }
@@ -29,9 +29,10 @@ public class OrderServices {
     }
 
     public void save(Order order) throws Exception{
-        if (isValid(order)){
-            dataAccess.saveOrder(order);
+        if (!isValid(order)){
+            throw new Exception("Invalid Order");
         }
+        dataAccess.saveOrder(order);
     }
 
     private boolean isValid(Order order){
