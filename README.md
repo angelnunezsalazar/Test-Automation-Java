@@ -16,7 +16,7 @@ Release History
 
 License
 -------
-Copyright (c) 2012 "Snahider" Angel Nuñez Salazar
+Copyright (c) 2013 "Snahider" Angel Nuñez Salazar
 
 "Test Automation Java" by Angel Nuñez Salazar is licensed under a
 [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/ "Creative Commons Attribution-ShareAlike 3.0 Unported License")

@@ -51,12 +51,12 @@ public class CarroCompras {
 	public BigDecimal total() {
 		BigDecimal lineaTotal = new BigDecimal(0);
 		for (LineaCarroCompras linea : detalle) {
-			lineaTotal.add(linea.total());
+			lineaTotal=lineaTotal.add(linea.total());
 		}
 		return lineaTotal.add(costoEnvio);
 	}
 
-	public LineaCarroCompras buscarLinea(int productoId) {
+	private LineaCarroCompras buscarLinea(int productoId) {
 		for (LineaCarroCompras linea : detalle) {
 			if (linea.getProducto().getId() == productoId) {
 				return linea;
