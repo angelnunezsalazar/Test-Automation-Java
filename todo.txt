@@ -1,3 +1,5 @@
+BUG: Ejercicio - Unit Testing, borrar el método eliminarLinea de la clase CarroCompras. 
+
 DABASE TESTING
 Best Practices (http://www.agiledata.org/essays/databaseTesting.html)
 - Agregar al ejercicio como verificar mappings.

@@ -20,7 +20,7 @@ public class CostoEnvioService {
 
 	public void actualizarCosto(String pais, double costo) {
 		if (costo == 0)
-			throw new InvalidParameterException("Costo Envio no puede ser 0");
+			throw new InvalidParameterException("Costo envio no puede ser 0");
 
 		costoEnvioDAO.actualizar(pais, costo);
 	}
