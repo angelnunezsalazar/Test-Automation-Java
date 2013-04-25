@@ -1,0 +1,14 @@
+Crear un usuario
+===================
+grant create session, create table, create procedure,
+  create sequence, create view, create public synonym,
+  drop public synonym to utp;
+
+Logearse como SYS
+=================
+GRANT EXECUTE ON SYS.UTL_FILE TO [usuario]
+grant execute on dbms_pipe to public
+
+Instalar
+=============
+SQL> @ut_i_do install

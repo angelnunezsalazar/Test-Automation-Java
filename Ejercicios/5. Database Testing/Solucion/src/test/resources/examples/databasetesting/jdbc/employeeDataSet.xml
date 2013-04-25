@@ -1,5 +1,0 @@
-<dataset>
-    <employees id="1" lastName="Pacheco" hireDate="2010-12-30"/>
-    <employees id="2" lastName="Quispe" hireDate="2010-12-29"/> 
-    <employees id="3" lastName="Tovar" hireDate="2010-12-28"/>  
-</dataset>
