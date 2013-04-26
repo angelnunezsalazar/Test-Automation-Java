@@ -1,0 +1,68 @@
+[0.001][INFO]:      ChromeDriver 23.0.1240.0 D:\Laboral\Cursos\Test Automation Java\Ejercicios\6. Web Testing Introduction\Solucion\drivers\chromedriver.exe
+[1.106][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.132][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[22.285][INFO]:     Connected to Chrome successfully. Version: 26.0.1410.64
+[22.604][FINE]:     Command received (/session/9621a1faf63a964fdebe6baafbd5a262)
+[22.613][FINE]:     Command finished (/session/9621a1faf63a964fdebe6baafbd5a262) with response {
+   "sessionId": "9621a1faf63a964fdebe6baafbd5a262",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.64",
+      "webStorageEnabled": true
+   }
+}
+
+[22.645][FINE]:     Command received (/session/9621a1faf63a964fdebe6baafbd5a262/url) with params {
+   "url": "http://www.google.com"
+}
+
+[22.645][FINER]:    Waiting for all views to stop loading...
+[22.646][FINER]:    Done waiting for all views to stop loading
+[34.015][FINER]:    Waiting for all views to stop loading...
+[34.016][FINER]:    Done waiting for all views to stop loading
+[34.016][FINE]:     Command finished (/session/9621a1faf63a964fdebe6baafbd5a262/url) with response {
+   "sessionId": "9621a1faf63a964fdebe6baafbd5a262",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[34.040][FINE]:     Command received (/session/9621a1faf63a964fdebe6baafbd5a262/title)
+[34.040][FINER]:    Waiting for all views to stop loading...
+[34.040][FINER]:    Done waiting for all views to stop loading
+[34.377][FINER]:    Waiting for all views to stop loading...
+[34.445][FINER]:    Done waiting for all views to stop loading
+[34.445][FINE]:     Command finished (/session/9621a1faf63a964fdebe6baafbd5a262/title) with response {
+   "sessionId": "9621a1faf63a964fdebe6baafbd5a262",
+   "status": 0,
+   "value": "Google"
+}
+
+[34.450][FINE]:     Command received (/session/9621a1faf63a964fdebe6baafbd5a262)
+[39.525][INFO]:     Chrome shutdown
