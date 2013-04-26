@@ -69,6 +69,31 @@ public class EmployeeJDBCTest_ExternalDS_NukePave {
 		assertNotNull(employeePersisted);
 	}
 
+//	@Test
+//	public void create_theEmployeeIsPersisted2() throws Exception {      
+//		InputStream file = this.getClass().getResourceAsStream("employeeDataSet.xml");
+//		IDataSet dataSet = new FlatXmlDataSetBuilder().build(file);
+//		IDatabaseConnection connection = new DatabaseConnection(dataSource.getConnection());
+//		DatabaseOperation.DELETE_ALL.execute(connection, dataSet);
+//		
+//		Employee employee = new Employee("Carranza", Date.valueOf("2012-10-15"));
+//
+//		employeeJDBC.create(employee);
+//
+//		connection = new DatabaseConnection(dataSource.getConnection());
+//		IDataSet databaseDataSet = connection.createDataSet();
+//        ITable actualTable = databaseDataSet.getTable("employees");
+//		
+//		file = this.getClass().getResourceAsStream("employeeExpected.xml");
+//		IDataSet expectedDataSet = new FlatXmlDataSetBuilder().build(file);
+//        ITable expectedTable = expectedDataSet.getTable("employees");
+//        
+//        ITable filteredTable = DefaultColumnFilter.includedColumnsTable(actualTable, 
+//        		expectedTable.getTableMetaData().getColumns());
+//        
+//        Assertion.assertEquals(expectedTable, filteredTable);
+//	}
+	
 	@Test
 	public void delete_theEmployeeIsDeleted() throws Exception {
 		int EMPLOYEEID_FROM_DTS=1;

@@ -1,4 +1,6 @@
-BUG: Ejercicio - Unit Testing, borrar el método eliminarLinea de la clase CarroCompras. 
+Bug: Ejercicio - Unit Testing, borrar el método eliminarLinea de la clase CarroCompras. 
+Bug: Documento 1 DbTesting, subir las anotaciones de inyecciones y las reflexión "ejecuta la prueba. q ha pasado?"
+Bug: Ejercicio DbUnit, la comparación de dsets no esta cerrando bien la conexión, más práctico mostrar esta funconalidad el delete.
 
 DABASE TESTING
 Best Practices (http://www.agiledata.org/essays/databaseTesting.html)
