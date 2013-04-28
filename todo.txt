@@ -1,10 +1,16 @@
 Bug: Ejercicio - Unit Testing, borrar el método eliminarLinea de la clase CarroCompras. 
 Bug: Documento 1 DbTesting, subir las anotaciones de inyecciones y las reflexión "ejecuta la prueba. q ha pasado?"
-Bug: Ejercicio DbUnit, la comparación de dsets no esta cerrando bien la conexión, más práctico mostrar esta funconalidad el delete.
+Bug: Ejercicio DbUnit, la comparación de datasets parece q no esta cerrando bien la conexión, más práctico mostrar esta funcionalidad el delete.
+
+MOCKING
+http://stackoverflow.com/questions/1595166/why-is-it-so-bad-to-mock-classes/1595212#1595212
+http://codebetter.com/jeremymiller/2008/01/19/typemock-isn-t-too-powerful-and-quot-designing-for-testability-quot-is-much-more-than-merely-mocking-anyway/
 
 DABASE TESTING
-Best Practices (http://www.agiledata.org/essays/databaseTesting.html)
 - Agregar al ejercicio como verificar mappings.
+Unitils
+http://es.slideshare.net/nevenfi/unit-testing-unitils-dbmaintain
+Best Practices (http://www.agiledata.org/essays/databaseTesting.html)
 
 WEB TESTING
 Conceptos:
@@ -17,6 +23,7 @@ http://www.slideshare.net/jezhumble/creating-maintainable-automated-acceptance-t
 MANTENIBILIDAD
 Tests Smells
 http://opentalkware.googlecode.com/svn/talk/TestDoubles/trunk/index.html
+http://xunitpatterns.com/Test%20Smells.html
 Tests Economics (xUnit Patterns Book)
 http://www.youtube.com/watch?v=Pq6LHFM4JvE
 
