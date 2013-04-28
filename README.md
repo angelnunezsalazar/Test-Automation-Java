@@ -4,7 +4,7 @@ Material completo del taller "Test Automation Java"
 
 Descripción
 -----------
-Las **herramientas de automatización de pruebas** nos permiten verificar el comportamiento unitario del código o inclusive pre-grabar acciones de los usuarios, comparar los resultados con el funcionamiento esperado y reportar el éxito o fracaso de estas pruebas a las personas interesadas. Una vez creadas estas pruebas pueden ser **ejecutadas repetitivamente de forma muy sencilla** y pueden ser extendidas para **realizar tareas que serían imposibles de forma manual.**
+Las herramientas de automatización de pruebas nos permiten verificar el comportamiento unitario del código o inclusive pre-grabar acciones de los usuarios, comparar los resultados con el funcionamiento esperado y reportar el éxito o fracaso de estas pruebas a las personas interesadas. Una vez creadas estas pruebas pueden ser ejecutadas repetitivamente de forma muy sencilla y pueden ser extendidas para realizar tareas que serían imposibles de forma manual.
 
 Entre los beneficios de utilizar pruebas automatizadas tenemos:
 
