@@ -13,11 +13,36 @@ Entre los beneficios de utilizar pruebas automatizadas tenemos:
 - Reducir considerablemente la cantidad de bugs
 - Poder ejecutar pruebas de manera rápida ante cualquier cambio en el software
 
-Descripción completa: [http://www.openedgetech.com/calendario/520-pruebas-automatizadas-java/](http://www.openedgetech.com/calendario/520-pruebas-automatizadas-java/ "Automate Testing Java")
+Contenido
+---------
+Unit Testing
+* Características de un Unit Test.
+* Patrón "Arrange-Act-Assert" 
+* xUnit Frameworks - JUnit.
+* Métricas: Code Coverage, Cyclomatic Complexity.
+* Enfoques: Tradicional, Test First Programming y Data Driven Testing.
+Test Doubles
+* Inversión e inyección de dependencias.
+* State Testings vs Interaction Testing.
+* Stubs y Mocks.
+* Otros Test Doubles.
+* Mocking Frameworks.
+* Prácticas para aumentar la testeabilidad.
+Database Testing
+* Testing con "Raw" JDBC.
+* Testing con Hibernate.
+* Outsite vs Inside DB Testing.
+* Herramientas: Sprint Test, DBUnit, utPLSQL.
+* Patrones y estrategias para pruebas de BD.
+Web Testing
+* Estructura de Pruebas Web Automatizadas.
+* Enfoques para realizar Web Testing.
+* Recording and Playback utilizando Selenium IDE.
+* Scripting utilizando Selenium-WebDriver.
+* Page Object Pattern.
 
 Release History
 ---------------
-
 2.0 - (22/04/2013)
 * Unit Testing
 * Test Doubles (Fakes, Stubs, Mocks)
