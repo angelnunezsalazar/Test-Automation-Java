@@ -8,16 +8,16 @@ Las herramientas de automatización de pruebas nos permiten verificar el comporta
 
 Entre los beneficios de utilizar pruebas automatizadas tenemos:
 
-- Ahorrar tiempo y dinero
-- Aumentar la calidad del software
-- Reducir considerablemente la cantidad de bugs
-- Poder ejecutar pruebas de manera rápida ante cualquier cambio en el software
+- Ahorrar tiempo y dinero.
+- Aumentar la calidad del software.
+- Reducir considerablemente la cantidad de bugs.
+- Poder ejecutar pruebas de manera rápida ante cualquier cambio en el software.
 
 Contenido
 ---------
 Unit Testing
 * Características de un Unit Test.
-* Patrón "Arrange-Act-Assert" 
+* Patrón "Arrange-Act-Assert".
 * xUnit Frameworks - JUnit.
 * Métricas: Code Coverage, Cyclomatic Complexity.
 * Enfoques: Tradicional, Test First Programming y Data Driven Testing.
