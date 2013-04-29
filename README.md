@@ -21,6 +21,7 @@ Unit Testing
 * xUnit Frameworks - JUnit.
 * Métricas: Code Coverage, Cyclomatic Complexity.
 * Enfoques: Tradicional, Test First Programming y Data Driven Testing.
+
 Test Doubles
 * Inversión e inyección de dependencias.
 * State Testings vs Interaction Testing.
@@ -28,12 +29,14 @@ Test Doubles
 * Otros Test Doubles.
 * Mocking Frameworks.
 * Prácticas para aumentar la testeabilidad.
+
 Database Testing
 * Testing con "Raw" JDBC.
 * Testing con Hibernate.
 * Outsite vs Inside DB Testing.
 * Herramientas: Sprint Test, DBUnit, utPLSQL.
 * Patrones y estrategias para pruebas de BD.
+
 Web Testing
 * Estructura de Pruebas Web Automatizadas.
 * Enfoques para realizar Web Testing.
