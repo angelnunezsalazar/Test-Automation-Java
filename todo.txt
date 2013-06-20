@@ -2,21 +2,23 @@ Bug: Ejercicio - Unit Testing, borrar el método eliminarLinea de la clase CarroC
 Bug: Documento 1 DbTesting, subir las anotaciones de inyecciones y las reflexión "ejecuta la prueba. q ha pasado?"
 Bug: Ejercicio DbUnit, la comparación de datasets parece q no esta cerrando bien la conexión, más práctico mostrar esta funcionalidad el delete.
 
+METRICS
+Ciclomatic vs Coverage http://www.crap4j.org/
+
 MOCKING
 http://stackoverflow.com/questions/1595166/why-is-it-so-bad-to-mock-classes/1595212#1595212
 http://codebetter.com/jeremymiller/2008/01/19/typemock-isn-t-too-powerful-and-quot-designing-for-testability-quot-is-much-more-than-merely-mocking-anyway/
 
 DABASE TESTING
 - Agregar al ejercicio como verificar mappings.
-Unitils
-http://es.slideshare.net/nevenfi/unit-testing-unitils-dbmaintain
+Unitils http://es.slideshare.net/nevenfi/unit-testing-unitils-dbmaintain
 Best Practices (http://www.agiledata.org/essays/databaseTesting.html)
 
 WEB TESTING
-Conceptos:
-http://seleniumhq.org/docs/01_introducing_selenium.html
-Styles
-http://www.exampler.com/blog/2007/06/06/four-implementation-styles-for-workflow-tests/
+Workflow tests alternatives http://www.exampler.com/blog/2007/06/06/four-implementation-styles-for-workflow-tests/
+Mobile Testing: http://appium.io/
+
+
 ACCEPTANCE TESTS
 http://www.slideshare.net/jezhumble/creating-maintainable-automated-acceptance-tests
 
@@ -30,6 +32,6 @@ http://www.youtube.com/watch?v=Pq6LHFM4JvE
 COSTO BENEFICIO
 http://www.exampler.com/testing-com/writings/automate.pdf
 
-
 LEGACY CODE
 - 1.6 new code vs existing code
+Modern Mocking Tools http://martinfowler.com/articles/modernMockingTools.html
