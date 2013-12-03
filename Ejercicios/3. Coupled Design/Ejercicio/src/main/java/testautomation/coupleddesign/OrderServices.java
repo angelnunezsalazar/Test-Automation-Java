@@ -1,6 +1,5 @@
 package testautomation.coupleddesign;
 
-import java.math.BigDecimal;
 
 public class OrderServices {
 	private DataAccess dataAccess;
@@ -9,34 +8,33 @@ public class OrderServices {
 		dataAccess = new DataAccess();
 	}
 
-	public BigDecimal calculateTotal(Order order) throws Exception{
-		BigDecimal itemTotal = order.getItemTotal();
-		
+	public double calculateTotal(Order order) throws Exception {
+		double itemTotal = order.getItemTotal();
+
 		int discountPercentage = 0;
-        if (order.getCouponCode()!=null){
-            discountPercentage = dataAccess.getPromotionalDiscount(order.getCouponCode());
-        }
+		if (order.getCoupon() != null) {
+			discountPercentage = dataAccess.getPromotionalDiscount(order
+					.getCoupon());
+		}
 
-        // Ejm: 50 * 10/100 = 45
-        BigDecimal discount=itemTotal.multiply(new BigDecimal(discountPercentage)
-        							 .divide(new BigDecimal(100)));
-        return itemTotal.subtract(discount);
-    }
-	
-    public Order getOrder(int id) throws Exception{
-        return dataAccess.getOrder(id);
-    }
+		double discount = itemTotal * discountPercentage / 100;
+		// Ejm: 50 * 10/100 = 45
+		return itemTotal - discount;
+	}
 
-    public void save(Order order) throws Exception{
-        if (!isValid(order)){
-            throw new Exception("Invalid Order");
-        }
-        dataAccess.saveOrder(order);
-    }
+	public Order getOrder(int id) throws Exception {
+		return dataAccess.getOrder(id);
+	}
 
-    private boolean isValid(Order order){
-        return order.getId() > 0 &&
-        	   order.getItemTotal().compareTo(BigDecimal.ZERO) == 1 && 
-        	   order.getTotal().compareTo(BigDecimal.ZERO)== 1;
-    }
+	public void save(Order order) throws Exception {
+		if (!isValid(order)) {
+			throw new Exception("Invalid Order");
+		}
+		dataAccess.saveOrder(order);
+	}
+
+	private boolean isValid(Order order) {
+		return order.getId() > 0 && order.getItemTotal() != 0
+				&& order.getTotal() != 0;
+	}
 }

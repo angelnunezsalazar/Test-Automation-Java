@@ -1,12 +1,10 @@
 package testautomation.coupleddesign;
 
-import static org.junit.Assert.*;
-
-import java.math.BigDecimal;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
 public class OrderServicesTest {
-	
 	
 }

@@ -1,13 +1,13 @@
 package testautomation.coupleddesign;
 
-import java.math.BigDecimal;
-
 public class Order {
 
-	public Order(int id, String couponCode, BigDecimal itemTotal) {
+	public Order() {}
+	
+	public Order(int id, String coupon, double itemTotal) {
 		this.id = id;
-		this.couponCode = couponCode;
-		this.itemTotal = itemTotal;
+		this.coupon=coupon;
+		this.setItemTotal(itemTotal);
 	}
 
 	public int getId() {
@@ -16,27 +16,33 @@ public class Order {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getCouponCode() {
-		return couponCode;
+
+	public String getCoupon() {
+		return coupon;
 	}
-	public void setCouponCode(String couponCode) {
-		this.couponCode = couponCode;
+
+	public void setCoupon(String coupon) {
+		this.coupon = coupon;
 	}
-	public BigDecimal getItemTotal() {
+
+	public double getItemTotal() {
 		return itemTotal;
 	}
-	public void setItemTotal(BigDecimal itemTotal) {
+
+	public void setItemTotal(double itemTotal) {
 		this.itemTotal = itemTotal;
 	}
-	public BigDecimal getTotal() {
+
+	public double getTotal() {
 		return total;
 	}
-	public void setTotal(BigDecimal total) {
+
+	public void setTotal(double total) {
 		this.total = total;
 	}
 
 	private int id;
-	private String couponCode;
-	private BigDecimal itemTotal;
-	private BigDecimal total;
+	private String coupon;
+	private double itemTotal;
+	private double total;
 }
