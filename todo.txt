@@ -1,6 +1,8 @@
 Bug: Ejercicio - Unit Testing, borrar el método eliminarLinea de la clase CarroCompras. 
 Bug: Documento 1 DbTesting, subir las anotaciones de inyecciones y las reflexión "ejecuta la prueba. q ha pasado?"
 Bug: Ejercicio DbUnit, la comparación de datasets parece q no esta cerrando bien la conexión, más práctico mostrar esta funcionalidad el delete.
+Bug: WEB TESTING FRAMEWORK: Archivos son CaseSensitive en Linux
+
 
 METRICS
 Ciclomatic vs Coverage http://www.crap4j.org/
