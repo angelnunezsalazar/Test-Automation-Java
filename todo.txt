@@ -7,10 +7,6 @@ Bug: WEB TESTING FRAMEWORK: Archivos son CaseSensitive en Linux
 METRICS
 Ciclomatic vs Coverage http://www.crap4j.org/
 
-MOCKING
-http://stackoverflow.com/questions/1595166/why-is-it-so-bad-to-mock-classes/1595212#1595212
-http://codebetter.com/jeremymiller/2008/01/19/typemock-isn-t-too-powerful-and-quot-designing-for-testability-quot-is-much-more-than-merely-mocking-anyway/
-
 DABASE TESTING
 - Agregar al ejercicio como verificar mappings.
 Unitils http://es.slideshare.net/nevenfi/unit-testing-unitils-dbmaintain
